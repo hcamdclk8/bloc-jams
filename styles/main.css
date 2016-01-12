@@ -57,12 +57,21 @@ body {
      /* #3 */
      text-decoration: none;
      cursor: pointer;
+    
 }
  
    /* #5 */
 .links-container .navbar-link:hover {
      color: rgb(233,50,117);
 }
+
+/* Assignment 9 collection view to make collection have white background */
+.links-container .navbar-link:active {
+     background-color: white;
+     text: rgb(233,50,117);
+}
+
+
 
 
 /* Medium and small screens (640px) */
